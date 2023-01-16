@@ -337,6 +337,7 @@ export default {
         attributionControl: false,
         minZoom: 4,
         maxZoom: 17,
+        //layers:[satellite]
       }).setView(center.value, 7);
 
       L.tileLayer(
